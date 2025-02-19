@@ -59,23 +59,23 @@ graph TD;
 
 ## 🔧 Installation  
 
-### 1⃣ Clone the Repository  
+###  1. Clone the Repository  
 ```bash
 git clone https://github.com/your-username/speaker-classification.git
 cd speaker-classification
 ```
 
-### 2⃣ Install Dependencies  
+### 2. Install Dependencies  
 ```bash
 pip install -r requirements.txt
 ```
 
-### 3⃣ Run Model Training  
+### 3. Run Model Training  
 ```bash
 Deep_Learning_Model_Code.ipynb
 ```
 
-### 4⃣ Start Streamlit App  
+### 4. Start Streamlit App  
 ```bash
 streamlit run app.py
 ```
