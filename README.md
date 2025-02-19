@@ -80,7 +80,7 @@ The model consists of:
 | Accuracy    | 95.6% |
 | F1-Score    | 93.8% |
 
-![Result Image](output.png)
+![Result Image](output.JPG)
 
 ---
 ## 🛠️ Technologies Used
