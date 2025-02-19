@@ -1,33 +1,34 @@
 # 🎤 Speaker Verification System using Deep Learning
 
 ![Result Image](banner.png)
-## 📌 Overview
+
+## 📌 Overview  
 This project implements a **Speaker Verification System** using **MFCC feature extraction**, **CNN-LSTM model**, and **Streamlit-based UI** for real-time speaker verification. The system classifies speakers based on their unique voice characteristics and predicts whether a new audio sample belongs to a known speaker.
 
 ---
-## 🔥 Features
-✅ **Extract MFCC features** from audio files<br>
-✅ **Train a CNN-LSTM model** for speaker classification<br>
-✅ **Evaluate model performance** using accuracy and F1-score<br>
-✅ **Streamlit-based UI** for easy speaker verification<br>
-✅ **Similarity score-based speaker identification** using cosine similarity
+
+## 🔥 Features  
+✅ **Extract MFCC features** from audio files  
+✅ **Train a CNN-LSTM model** for speaker classification  
+✅ **Evaluate model performance** using accuracy and F1-score  
+✅ **Streamlit-based UI** for easy speaker verification  
+✅ **Similarity score-based speaker identification** using cosine similarity  
 
 ---
 
-## 🛠️ Technologies Used
-- **Python** 🐍
-- **TensorFlow/Keras** 🔬
-- **Librosa** 🎵
-- **Streamlit** 🖥️
-- **Scikit-Learn** 📊
-- **Matplotlib** 📈
-
-
+## 🫠 Technologies Used  
+- **Python** 🐍  
+- **TensorFlow/Keras** 🔬  
+- **Librosa** 🎵  
+- **Streamlit** 🖥️  
+- **Scikit-Learn** 📊  
+- **Matplotlib** 📈  
 
 ---
-## 📂 Project Structure
+
+## 💂️ Project Structure  
 ```bash
-📦 Speaker-Classification
+📺 Speaker-Classification
 ├── 📁 dataset                        # Dataset folder containing audio samples
 ├── 📁 models                         # Trained models (saved as .h5 files)
 ├── 📁 streamlit_app                   # Streamlit UI implementation
@@ -39,7 +40,8 @@ This project implements a **Speaker Verification System** using **MFCC feature e
 ```
 
 ---
-## 📌 Workflow
+
+## 📌 Workflow  
 Below is a **flowchart** explaining the speaker classification workflow:
 
 ```mermaid
@@ -54,47 +56,68 @@ graph TD;
 ```
 
 ---
-## 🔧 Installation
-### 1️⃣ Clone the Repository
+
+## 🔧 Installation  
+
+### 1⃣ Clone the Repository  
 ```bash
 git clone https://github.com/your-username/speaker-classification.git
 cd speaker-classification
 ```
 
-### 2️⃣ Install Dependencies
+### 2⃣ Install Dependencies  
 ```bash
 pip install -r requirements.txt
 ```
 
-### 3️⃣ Run Model Training
+### 3⃣ Run Model Training  
 ```bash
 Deep_Learning_Model_Code.ipynb
 ```
 
-### 4️⃣ Start Streamlit App
+### 4⃣ Start Streamlit App  
 ```bash
 streamlit run app.py
 ```
 
 ---
-## 🎯 Model Architecture
-The model consists of:
-- **Conv1D Layers** for extracting spatial features from MFCC
-- **BatchNormalization & MaxPooling** for feature refinement
-- **LSTM Layers** to capture time-series dependencies
-- **Dense Layers** with Softmax activation for classification
+
+## 🎯 Model Architecture  
+The model consists of:  
+- **Conv1D Layers** for extracting spatial features from MFCC  
+- **BatchNormalization & MaxPooling** for feature refinement  
+- **LSTM Layers** to capture time-series dependencies  
+- **Dense Layers** with Softmax activation for classification  
 
 ---
-## 📊 Results
-Test 1:
-![Result Image](output.JPG)
-<br>
-Test 2:
-![Result Image](output_2.JPG)
-![Result Image](MFCC.png)
 
+## 📊 Results  
+Test 1:  
+![Result Image](output.JPG)  
 
-## 🚀 Future Scope
+Test 2:  
+![Result Image](output_2.JPG)  
+
+---
+
+## 🎼 MFCC Feature Visualization  
+![MFCC Features](MFCC.png)  
+
+The **Mel-Frequency Cepstral Coefficients (MFCCs)** are extracted from audio signals to capture essential spectral features for speaker verification. The above heatmap visualizes the MFCC features of a speech sample.
+
+### 🔹 Key Aspects:  
+- **X-axis (Time):** Represents the duration of the audio signal in seconds.  
+- **Y-axis (MFCC Coefficients):** Different MFCC values representing the frequency characteristics of speech.  
+- **Color Intensity:** The heatmap colors indicate energy levels in **decibels (dB)**:  
+  - **Red shades** → Higher energy levels  
+  - **Blue shades** → Lower energy levels  
+
+### 📌 Why MFCC?  
+MFCCs mimic human auditory perception by emphasizing perceptually relevant frequency components, making them highly effective for speaker classification and verification.  
+
+---
+
+## 🚀 Future Scope  
 - **Real-time Deployment:** Optimize the model for real-time applications, enabling instant speaker verification.  
 - **Multi-Language Support:** Expand the dataset to include multiple languages and accents for better generalization.  
 - **Noise Robustness:** Improve noise-handling capabilities by incorporating noise reduction techniques.  
@@ -105,16 +128,11 @@ Test 2:
 
 ---
 
-## 📩 Contribution
-🚀 Contributions are welcome! Feel free to fork and submit PRs.
+## 📩 Contribution  
+🚀 Contributions are welcome! Feel free to fork and submit PRs.  
 
 ---
-## 📞 Contact
+
+## 📞 Contact  
 📧 **Email:** shubhamsingla259@gmail.com  
-
-
-
-
-
-
 
