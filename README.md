@@ -1,9 +1,9 @@
-# 🎤 Speaker Classification using Deep Learning
+# 🎤 Speaker Verification System using Deep Learning
 
 ![Speaker Recognition](https://img.shields.io/badge/Speaker%20Recognition-Deep%20Learning-blue)
 
 ## 📌 Overview
-This project implements a **Speaker Classification System** using **MFCC feature extraction**, **CNN-LSTM model**, and **Streamlit-based UI** for real-time speaker verification. The system classifies speakers based on their unique voice characteristics and predicts whether a new audio sample belongs to a known speaker.
+This project implements a **Speaker Verification System** using **MFCC feature extraction**, **CNN-LSTM model**, and **Streamlit-based UI** for real-time speaker verification. The system classifies speakers based on their unique voice characteristics and predicts whether a new audio sample belongs to a known speaker.
 
 ---
 ## 🔥 Features
