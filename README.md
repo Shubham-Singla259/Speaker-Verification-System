@@ -80,6 +80,8 @@ The model consists of:
 | Accuracy    | 95.6% |
 | F1-Score    | 93.8% |
 
+![Result Image](output.png)
+
 ---
 ## 🛠️ Technologies Used
 - **Python** 🐍
@@ -100,4 +102,10 @@ This project is licensed under the **MIT License**.
 ---
 ## 📞 Contact
 📧 **Email:** shubhamsingla259@gmail.com  
+
+
+
+
+
+
 
