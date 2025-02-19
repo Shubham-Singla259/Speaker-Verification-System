@@ -68,7 +68,7 @@ pip install -r requirements.txt
 
 ### 3️⃣ Run Model Training
 ```bash
-python train.py
+Deep_Learning_Model_Code.ipynb
 ```
 
 ### 4️⃣ Start Streamlit App
