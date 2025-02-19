@@ -75,12 +75,11 @@ The model consists of:
 
 ---
 ## 📊 Results
-| Metric       | Score |
-|-------------|-------|
-| Accuracy    | 95.6% |
-| F1-Score    | 93.8% |
-
+Test 1:
 ![Result Image](output.JPG)
+<br>
+Test 2:
+![Result Image](output_2.JPG)
 
 ---
 ## 🛠️ Technologies Used
